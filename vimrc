@@ -2,11 +2,11 @@
 
 let $VIMBASE=$HOME."/vimfiles"
 
-source $VIMBASE/startup/settings
+source $VIMBASE/configs/settings
 
 filetype off    
 
-set rtp+=$VIMBASE/dein
+set rtp+=$VIMBASE/dein.vim
 
 let $PLUGIN_BASE = expand($VIMBASE.'/plugins/')
 
